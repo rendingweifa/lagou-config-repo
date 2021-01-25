@@ -17,13 +17,18 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/chuzhonglingyan/lagou-config-repo.git #配置git服务地址
+          uri: https://github.com/rendingweifa/lagou-config-repo.git #配置git服务地址
+          username: 935539514@qq.com #配置git用户名
+          password: zx954123 #配置git密码
           search-paths:
             - lagou-config-repo
-          skip-ssl-validation: true
       # 读取分支
       label: master
-
+  rabbitmq:
+    host: 127.0.0.1
+    port: 15672
+    username: guest
+    password: guest
 #针对的被调用方微服务名称,不加就是全局生效
 #lagou-service-resume:
 #  ribbon:
