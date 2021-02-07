@@ -1,22 +1,20 @@
-## QQÓÊÏäÅäÖÃ
+## QQé‚®ç®±é…ç½®
 spring:
- mail:
-    host: smtp.qq.com #·¢ËÍÓÊ¼ş·şÎñÆ÷
-    username: 935539514@qq.com #·¢ËÍÓÊ¼şµÄÓÊÏäµØÖ·
-    password:  eezqcyzrwtqjbfii  #¿Í»§¶ËÊÚÈ¨Âë£¬²»ÊÇÓÊÏäÃÜÂë£¬Õâ¸öÔÚqqÓÊÏäÉèÖÃÀïÃæ×Ô¶¯Éú³ÉµÄ
-    properties.mail.smtp.port: 465 #¶Ë¿ÚºÅ465»ò587
+  mail:
+    host: smtp.qq.com #å‘é€é‚®ä»¶æœåŠ¡å™¨
+    username: 935539514@qq.com #å‘é€é‚®ä»¶çš„é‚®ç®±åœ°å€
+    password:  eezqcyzrwtqjbfii  #å®¢æˆ·ç«¯æˆæƒç ï¼Œä¸æ˜¯é‚®ç®±å¯†ç ï¼Œè¿™ä¸ªåœ¨qqé‚®ç®±è®¾ç½®é‡Œé¢è‡ªåŠ¨ç”Ÿæˆçš„
+    properties.mail.smtp.port: 465 #ç«¯å£å·465æˆ–587
     properties.mail.smtp.starttls.enable: true
     properties.mail.smtp.starttls.required: true
     properties.mail.smtp.ssl.enable: true
-    default-encoding: utf-8
-    
+    default-encoding: utf-8    
 limit:
   register:
-    ## Ò»·ÖÖÓ100´Î
+    ## ä¸€åˆ†é’Ÿ100æ¬¡
     interval: 1
-    count: 100
-  
+    count: 100  
 email:
-  ## 10ÃëÖÓ
+  ## 10ç§’é’Ÿ
   code:
      expireTime: 60
